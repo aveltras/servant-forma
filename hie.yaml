@@ -1,0 +1,8 @@
+cradle:
+  multi:
+    - path: "./servant-forma/src"
+      config: { cradle: {cabal: {component: "servant-forma"}} }
+    - path: "./servant-forma-server/src"
+      config: { cradle: {cabal: {component: "servant-forma-server"}} }
+    - path: "./servant-forma-server/test"
+      config: { cradle: {cabal: {component: "servant-forma-server:spec"}} }
